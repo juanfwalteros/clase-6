@@ -14,6 +14,8 @@ require("pacman")
 
 # Usar la función p_load de pacman para instalar/llamar las librerías de la clase
 p_load(rio, skimr, janitor, tidyverse)
+dplyr::filter() ##para especificar que quiero comando filter de dplyr
+filter <- dplyr::filter
 
 ## [2.] ¿Qué es tidy-data?
 ### 2.1. Raw data y tidy data
